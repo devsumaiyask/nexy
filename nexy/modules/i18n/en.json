@@ -48,6 +48,8 @@
     "checked": "Checked {scope} with {tool}",
     "compiled": "Compiled the .nexy files",
     "not_compiled": "Could not compile {path}"
+
+
   },
   "cli": {
     "cmd": {
@@ -60,7 +62,9 @@
       "new": "Create a new project in a new directory",
       "start": "Start production server",
       "test": "Run tests (--server / --client)",
-      "skills": "Add skills and AGENTS.md for coding agents"
+      "skills": "Add skills and AGENTS.md for coding agents",
+      "info": "Print environment and project versions in one block"
+
     },
     "commands_header": "Available Commands:",
     "help": "Nexy CLI",
@@ -118,6 +122,19 @@
     "checked": "Checked the format of {scope} with {tool}",
     "nexy": "Formatting {count} .nexy file(s)",
     "nexy_done": "Formatted {count} .nexy file(s)"
+  },
+  "info": {
+    "label": {
+      "frameworks": "Frameworks",
+      "nexy": "Nexy",
+      "node": "Node",
+      "os": "OS",
+      "package": "Package",
+      "python": "Python",
+      "router": "Router"
+    },
+    "not_found": "not found",
+    "router_file_based": "file-based"
   },
   "init": {
     "alias_invalid": "Use @, ~, # or $, optionally followed by letters (for example ~ or @app).",
